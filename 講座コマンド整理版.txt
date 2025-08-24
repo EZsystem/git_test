@@ -1,0 +1,54 @@
+【Laravel / Sail 関連】
+laravel-new <プロジェクト名>          # 新しい Laravel プロジェクト作成
+sail artisan migrate                   # マイグレーション実行（DBテーブル作成）
+sail composer require livewire/volt    # Livewire Volt を導入
+sail artisan volt:install              # Volt のセットアップ
+sail npm install && sail npm run build # npm パッケージ導入 & ビルド
+sail composer require barryvdh/laravel-debugbar --dev # デバッグバー追加
+sail down                              # Dockerコンテナ停止
+sail artisan sail:install              # Laravel Sail をインストール
+sail artisan livewire:layout           # Livewireレイアウト作成
+sail up -d                             # コンテナ起動（typo修正済み）
+sail artisan make:volt hello           # Voltコンポーネント「hello」作成
+
+【Git / GitHub 関連】
+echo "Add line4" >> README.md          # ファイルに追記
+git init                               # Gitリポジトリ初期化
+git config --global init.defaultBranch main # デフォルトブランチ名を main に
+git branch -m main                     # ブランチ名を main に変更
+git status                             # 状態確認
+git add README.md                      # ステージング
+git commit -m "Add line3"              # コミット
+git log                                # コミット履歴
+.gitignore                             # 無視ファイル設定
+error.log                              # ログファイル例
+git --version                          # Git バージョン確認
+git config -l                          # Git 設定一覧
+git reset --soft HEAD^                 # 直前のコミットを取り消し（変更は保持）
+git restore .                          # 作業ツリーを復元
+git restore README.md                  # 特定ファイルを復元
+git restore --staged README.md         # ステージ解除
+git log --oneline                      # 簡易ログ
+git reset --hard <commit_id>           # 指定コミットに強制戻し
+git branch                             # ブランチ一覧
+git branch topic-A                     # 新ブランチ作成
+git switch topic-A                     # ブランチ切り替え
+git merge topic-A                      # マージ
+git log --graph                        # 履歴をグラフ表示
+git switch -c topic-C                  # 新ブランチ作成＆切り替え
+git diff                               # 差分確認
+git remote -v                          # リモート確認
+git push origin main                   # main を push
+git pull origin main                   # main を pull
+git clone git@github.com:EZsystem/git_test.git # クローン
+
+【SSH 関連】
+ssh-keygen -t rsa -C "your_email@example.com" # SSH鍵作成
+ls ~/.ssh                                   # SSH鍵の存在確認
+cat ~/.ssh/id_rsa.pub                       # 公開鍵を表示（GitHub登録用）
+
+【Cursor 関連】
+cursor -r .                                 # Cursor でカレントフォルダを開く
+
+【URL アクセス】
+http://localhost/                           # Laravelの初期ページ

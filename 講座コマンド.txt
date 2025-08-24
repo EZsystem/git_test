@@ -1,0 +1,101 @@
+laravel-new <プロジェクト名>
+
+sail artisan migrate
+
+sail artisan migrate
+
+sail composer require livewire/volt
+
+sail artisan volt:install
+
+sail npm install && sail npm run build
+
+http://localhost/
+
+sail composer require barryvdh/laravel-debugbar --dev
+
+sail down
+
+sail artisan sail:install
+
+
+
+
+
+
+
+sail artisan livewire:layout
+
+seil up -d
+
+sail artisan make:volt hello
+
+
+
+
+
+echo "Add line4" >> README.md
+
+git init
+
+git config --global init.defaultBranch main
+
+git branch -m main
+
+git status
+
+git add README.md
+
+git commit -m "Add line3"
+
+git log
+
+.gitignore
+
+error.log
+
+git --version
+
+git config -l
+
+git reset --soft HEAD^
+
+git restore .
+
+git restore README.md
+
+git restore --staged README.md
+
+git log --oneline
+
+git reset --hard 5d2a6aa
+
+git branch
+
+git branch topic-A
+
+git switch topic-A
+
+git merge topic-A
+
+git log --graph
+
+git switch -c topic-C
+
+git diff
+
+cursor -r .
+
+ssh-keygen -t rsa -C "1974eiji2@gmail.com"
+
+ls ~/.ssh
+
+cat ~/.ssh/id_rsa.pub
+
+git remote -v
+
+git push origin main
+
+git pull origin main
+
+git clone git@github.com:EZsystem/git_test.git
