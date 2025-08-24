@@ -1,0 +1,9 @@
+git add ※failname
+
+git commit -m "****"
+
+git log
+
+.gitignor
+※gitの管理外にするファイル指定
+※ディレクトリは/をつける
