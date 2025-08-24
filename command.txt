@@ -7,3 +7,7 @@ git log
 .gitignor
 ※gitの管理外にするファイル指定
 ※ディレクトリは/をつける
+
+git --version
+
+git config -l
